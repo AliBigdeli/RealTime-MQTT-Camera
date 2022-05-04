@@ -24,7 +24,7 @@
 ### Setup
 in order to use each of clients need to setup and install dependencies, for python code you need paho library and for arduino code need to install pubsubclient and setup for esp32 boards. in order to upload code on ESP32 CAM choose 'AI Thinker ESP32CAM'.
 <p align="center">
-<img src="" alt="platformio" width="300" /> 
+<img src="https://user-images.githubusercontent.com/29748439/166814361-b7c3ff2c-81ea-4f68-b44d-7df1658ed120.jpg" alt="platformio" width="720" /> 
 </p>
 
 
