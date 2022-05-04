@@ -88,11 +88,9 @@ function onMessageArrived(message) {
   var topic = message.destinationName;
   var payload = message.payloadString;
 
-  // $('#ws').prepend('<li>' + topic + ' = ' + payload + '</li>');
-  // $('#webcam').src = `data:image/jpg;base64,${payload}`
   if (payload != undefined && payload.length > 0) {
     $("#webcam").attr("src", payload);
-    // console.log(payload);
+    console.log(typeof(payload));
   }
 }
 
